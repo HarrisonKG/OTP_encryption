@@ -1,0 +1,10 @@
+#Kristen Harrison
+#CS 344, Program 4 -- OTP
+
+
+#!/bin/bash
+gcc -o keygen keygen.c -Wall -g -std=c11
+gcc -o otp_enc_d otp_enc_d.c -Wall -g -std=c11
+gcc -o otp_enc otp_enc.c -Wall -g -std=c11
+gcc -o otp_dec_d otp_dec_d.c -Wall -g -std=c11
+gcc -o otp_dec otp_dec.c -Wall -g -std=c11
